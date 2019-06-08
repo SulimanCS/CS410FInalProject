@@ -75,7 +75,7 @@ def main():
                         audiomin.amplify(filename, amplifySet)
                         setting = amplifySet
                     csvLogger.increFile(filename)
-                    csvLogger.addNewEntry(filename, 'Yes', amplifySet, 'No', '(0, 0)')
+                    csvLogger.addNewEntry(filename, 'Yes', amplifySet, 'No', '(0, 0)', 'No', 0)
                 elif choice == 3:
                     low = int(input('Please enter the number of the low frequency to filter out, or -1 for the default value: '))
                     if low == -1:
@@ -85,7 +85,7 @@ def main():
                         high = highDef
                     audiomin.filterNoise(filename, 21, 9000)
                     csvLogger.increFile(filename)
-                    csvLogger.addNewEntry(filename, 'No', 0, 'Yes', '('+str(low)+', '+str(high)+')')
+                    csvLogger.addNewEntry(filename, 'No', 0, 'Yes', '('+str(low)+', '+str(high)+')', 'No', 0)
                 elif choice == 4:
                     target = int(input('Please enter the the decibel, or -1 for the default value: '))
                     if target == -1:

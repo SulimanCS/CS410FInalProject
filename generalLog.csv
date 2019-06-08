@@ -1,0 +1,12 @@
+filename,date,amplify,setting,noise filter,setting,normalize,setting
+spkr0.wav,2019/6/8,No,0,No,"(0, 0)",Yes,-20
+spkr1.wav,2019/6/8,Yes,1,No,"(0, 0)",No,0
+spkr1.wav,2019/6/8,No,0,No,"(0, 0)",Yes,-20
+spkr2.wav,2019/6/8,No,0,Yes,"(21, 9000)",No,0
+spkr0.wav,2019/6/8,No,0,Yes,"(21, 9000)",No,0
+spkr0.wav,2019/6/8,No,0,Yes,"(21, 9000)",No,0
+spkr3.wav,2019/6/8,No,0,No,"(0, 0)",Yes,-15
+spkr4.wav,2019/6/8,Yes,0,No,"(0, 0)",No,0
+spkr3.wav,2019/6/8,No,0,No,"(0, 0)",Yes,-10
+spkr4.wav,2019/6/8,No,0,No,"(0, 0)",Yes,-20
+spkr2.wav,2019/6/8,Yes,0,No,"(0, 0)",No,0
